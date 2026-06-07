@@ -1,497 +1,526 @@
-# Prompt #1: What is CRM?
+# CRM Research
+ICS499: AI-Assisted Capstone Research Assignment
 
-Answer the following questions about Customer Relationship Management (CRM) systems in relation to modern software development. Limit responses to each question to 200 words or less. Format each response for readability at a glance.  Put the response in markdown code format. Include the original prompt in the response:
+# Part 1 – AI-Based CRM Discovery
 
-1. Define what is CRM?
+## 1. What is CRM?
+
+```
+Prompt:
+You are a software consultant assigned to investigate Customer Relation Management (CRM) systems and provide recommendations to a modern software development company considering CRM adoption.
+
+Limit responses to each question to 200 words or less.  Format each response so it is easy to read and understand at a glance.  Provide response in markdown code format.  Include sources for the response (not to be included or limited by word count restrictions), including the related category.
+
+Provide information on CRM for the following categories.  
+* Definition
+* Purpose
+* History
+* Evolution
+```
+
+### Definition:
+- CRM (Customer Relationship Management) is a system of practices, processes, and software that centralizes customer data to manage interactions across sales, marketing, and support.
+- Core elements: contact & account data, interaction history, pipeline/workflows, automation, analytics, and integrations (APIs).
+- Outcome: single source of truth for customer lifecycle, enabling personalized outreach and coordinated service.
+
+### Purpose:
+- Improve revenue: manage pipelines, forecast, and accelerate deals.
+- Retain customers: track interactions, automate follow-ups, and measure satisfaction.
+- Align teams: provide shared customer context across sales, marketing, and support.
+- Automate work: workflows, lead routing, email sequences, and case triage.
+- Enable data-driven decisions: dashboards, segmentation, and behavioral analytics.
+- Integrate with product/dev: APIs, webhooks, and event streams for feature-driven customer experiences.
+
+### History:
+- 1980s: database marketing and electronic contact lists emerge.
+- 1990s: dedicated CRM vendors (e.g., Siebel) introduce enterprise applications for sales/service automation.
+- 2000s: cloud/SaaS shift led by Salesforce makes CRM accessible and subscription-based.
+- 2010s: mobile access, social CRM, and deeper analytics become standard.
+- 2020s: AI, predictive scoring, conversational bots, and tighter platform ecosystems dominate.
+
+### Evolution:
+- Deployment: on‑premises → cloud/SaaS → hybrid.
+- Architecture: monolithic apps → API-first, microservices, and low-code extensibility.
+- Capabilities: contact management → omnichannel engagement, automation, predictive analytics.
+- Developer integration: rich APIs, SDKs, webhooks, and event streaming for product/CRM coupling.
+- Focus areas: personalization, privacy/compliance (GDPR/CCPA), and AI-driven recommendations and routing.
+
+### Sources:
+---
+- CRM (definition & evolution): https://en.wikipedia.org/wiki/Customer_relationship_management (Definition, History, Evolution)
+- Salesforce overview & history: https://www.salesforce.com/company/ (History, Evolution)
+- Microsoft Dynamics CRM docs: https://learn.microsoft.com/en-us/dynamics365/ (Purpose, Capabilities)
+- HubSpot CRM education: https://www.hubspot.com/products/crm (Purpose, Features)
+- Gartner: CRM market and definition summaries (search Gartner CRM overview) — (Market context, trends)
+- Forrester: reports on CRM trends and AI in CRM (search Forrester CRM) — (Trends, AI)
+
+### Reflection:
+---
+### Which AI tool generated the response?
+```
+GPT-5 mini, set to balanced reasoning and speed.  
+```
+
+### Was the response complete?
+```
+The responses were mostly complete.  The evolution section would benefit from more context.  Links to each source were not always provided.  Instead of providing categories to discuss, rephrasing them into proper questions would likely have improved the quality of the response.
+
+Examples:
+1. Define what is CRM.
 2. What is the purpose of CRM in relation to modern software development?
 3. What is the History of CRM in modern software development?
-4. How has CRM evolved from from when it was first established to current day?
+4. How has CRM evolved from when it was first established to current day?
+```
 
-Put the response in markdown code format. Include the original prompt in the response.
+### Did you verify the information?
+```
+Yes.  I prompted the AI for reference information and reviewed the sources.    
+```
 
+### How trustworthy was the result?
+```
+The response for more generalized questions seemed trustworthy.  The response for CRM history was inconsistant across sources.  Based on the sources provided, much of the information was coming from statements on commercial websites.  Specifying what resources should be used for research may have improved the response.    
+```
+
+## 2. Why do organizations use CRM systems?
+
+```
+Prompt:
+You are a software consultant assigned to investigate Customer Relation Management (CRM) systems and provide recommendations to a modern software development company considering CRM adoption.
+
+Limit responses to each question to 200 words or less.  Keep response in clear and simple terms.  Provide response in markdown code format.  Provide sources with links for the response (not to be included or limited by word count restrictions) and include which subject each pertains to.
+
+Why do organizations use CRM systems?  Discuss in the following terms: 
+* Sales management
+* Customer management
+* Marketing
+* Customer support
+* Reporting and analytics
+```
+
+### Sales management:
+Centralizes leads, opportunities, accounts, and activities so reps follow a repeatable pipeline. Automates tasks (follow-ups, quotes), enforces stages, improves forecasting with real-time pipeline visibility, and reduces deal leakage via shared notes and playbooks. 
+
+Outcome: faster conversion, predictable revenue, and better quota attainment.
+
+### Customer management:
+Provides a single source of truth for contacts, accounts, contracts, and interaction history. Enables segmentation, lifecycle tracking, and cross-team context (sales, product, support). 
+
+Outcome: consistent, personalized experiences, reduced duplication, and improved retention.
+
+### Marketing:
+Connects campaigns to contacts and pipeline outcomes for targeted segmentation, journey orchestration, and attribution. Enables automated nurture sequences, lead scoring, and campaign ROI measurement so marketing focuses on high-value prospects and shortens time-to-value.
+
+### Customer support:
+Tracks cases, SLAs, customer history, and multichannel conversations in one place. Powers routing, escalation rules, knowledge-base integration, and contextual responses using prior interactions. 
+
+Outcome: faster resolution, higher first-contact resolution, and improved customer satisfaction.
+
+### Reporting and analytics:
+Aggregates sales, marketing, support, and product signals into dashboards, cohort analyses, forecasts, and predictive scores. Enables churn detection, deal-risk alerts, pipeline health metrics, and campaign attribution — supporting data-driven prioritization and strategic decisions.
+
+### Sources:
+---
+- Salesforce overview — Sales management, Marketing, Customer support, Reporting: https://www.salesforce.com/company/
+- HubSpot CRM — Marketing, Sales management, Customer management: https://www.hubspot.com/products/crm
+- Microsoft Dynamics 365 — Customer management, Support, Reporting: https://learn.microsoft.com/en-us/dynamics365/
+- Gartner: CRM market & definitions — Reporting and analytics, market trends: https://www.gartner.com/en/information-technology/insights/crm
+- Forrester: AI & CRM trends — Predictive scoring, analytics, automation: https://www.forrester.com/report/
+- Wikipedia: Customer relationship management — History, broad overview: https://en.wikipedia.org/wiki/Customer_relationship_management
+
+### Reflection:
+---
+### Which AI tool generated the response?
+```
+GPT-5 mini, set to balanced reasoning and speed.  
+```
+
+### Was the response complete?
+```
+The information was there but the response felt incomplete as it was very short and to the point.  Trying a different model may improve results or adjusting the prompt.  
+```
+
+### Did you verify the information?
+```
+Yes, but many of the links were not accurate or did not point to the appropriate material. 
+```
+
+### How trustworthy was the result?
+```
+The response appears to be accurate based on the information available on wikipedia.  Each summary does a good job of highlighting the benefits CRM provides to each group.
+```
+
+## 3. What business problems do CRM systems solve?
+
+```
+Prompt:
+You are a software consultant assigned to investigate Customer Relation Management (CRM) systems and provide recommendations to a modern software development company considering CRM adoption.
+
+Limit responses to each question to 200 words or less.  Keep response in clear and simple terms.  Provide response in markdown code format.  Provide sources with links for the response (not to be included or limited by word count restrictions) and include which subject each pertains to.
+
+What business problems do CRM systems solve?
+
+Provide examples from:
+
+* Retail
+* Healthcare
+* Education
+* Manufacturing
+* Nonprofits
+```
+
+CRM systems solve disconnected, reactive customer management by centralizing data, automating tasks, and enabling proactive engagement. Key problems eliminated: siloed information (one source of truth), low efficiency (automated follow-ups), and generic outreach (personalized insights).
+
+### Examples by industry:
+
+- **Retail:** Solves disjointed online/offline experiences. Unifies purchase history, loyalty, and support across channels, leading to personalized recommendations and higher retention.
+- **Healthcare:** Addresses fragmented patient records across EHRs and spreadsheets. CRM centralizes appointments, outreach, and compliance (HIPAA), improving care coordination.
+- **Education:** Helps reduce low enrollment and student drop-off. CRM manages recruitment, application tracking, and alumni engagement, resulting in higher yield and retention.
+- **Manufacturing:** Supports complex B2B sales cycles and distributor management. CRM tracks leads, quotes, orders, and after-sales service in one place, shortening sales cycles.
+- **Nonprofits:** Solves donor and volunteer data being scattered across spreadsheets. CRM unifies fundraising, event management, and donor stewardship, increasing donation efficiency.
+
+### Sources:
 ---
 
-# 1. Define What is CRM?
+**General CRM Problems Solved**
+- Everest Group, "What Business Problems Does a CX-AI-Native CRM Solve?": https://www.everestgrp.com/2025/cx-ai-native-crm
+- EngineerIT, "CRM: A Resilient Solution to Business Problems": https://www.engineerit.co.za/crm-resilient-solution
 
-## Customer Relationship Management (CRM)
+**Retail**
+- Rapaport, "Retail's Missing Tech Stack - CRM": https://www.rapaport.com/retail-missing-tech
+- ii.co.th, "How Salesforce CRM Helps Retail Businesses": https://www.ii.co.th/salesforce-retail-businesses
 
-Customer Relationship Management (CRM) is a combination of software, business strategies, and technologies used to manage interactions with customers and potential customers.
+**Healthcare**
+- CareLaunch, "EHR vs. HIPAA-Compliant CRM": https://www.carelaunch.com/ehr-vs-hipaa-crm
+- Solix, "CRM for Healthcare: Solving Data Challenges": https://www.solix.com/crm-healthcare-data-challenges
 
-### Core Functions
-- Stores customer information
-- Tracks communication and sales activity
-- Automates marketing and support tasks
-- Improves customer service and retention
-- Centralizes business data
+**Education**
+- LeadSquared, "Why Colleges Need a CRM": https://www.leadsquared.com/crm-for-colleges
+- EAB, "The Higher Ed CRM Buyer's Guide": https://www.eab.com/higher-ed-crm-guide
 
-### Common CRM Features
-- Contact management
-- Sales pipeline tracking
-- Email automation
-- Customer support ticketing
-- Reporting and analytics
+**Manufacturing**
+- Adept Sol, "Key Features of CRM for Manufacturing": https://www.adept-sol.com/crm-manufacturing-key-features
+- Zenatta, "Hercules Sealing Products Case Study": https://www.zenatta.com/hercules-sealing-case-study
 
-### Goal
-The primary goal of CRM is to improve business relationships, increase customer satisfaction, and support business growth through better organization and communication.
+**Nonprofits**
+- TechForce Services, "Salesforce Nonprofit Guide 2026": https://www.techforceservices.com/salesforce-nonprofit-guide-2026
+- PreviseIT, "Salesforce Nonprofit Cloud Overview": https://www.previseit.com/salesforce-nonprofit-cloud
 
+### Reflection:
 ---
+### Which AI tool generated the response?
+```
+DeepSeek-V3
+```
+
+### Was the response complete?
+```
+Yes, it answered the "what problems are solved" question very well while.  It did not delve into the "how" but it was also not prompted for this information.
+```
+
+### Did you verify the information?
+```
+Yes, but many of the links were not accurate or did not point to the appropriate material. 
+```
+
+### How trustworthy was the result?
+```
+The information seemed to align with my understanding of what type of solutions CRM provide.  However, the references were lacking.
+```
+
+## 4. What are the major modules found in a CRM?
+
+```
+Prompt:
+In terms of Customer Relation Management (CRM) systems, what are the major modules found in a CRM?  Keep responses easy to read at a glance.  Include references in a separate section in plain text.
 
-# 2. What is the Purpose of CRM in Relation to Modern Software Development?
-
-## Purpose of CRM in Modern Software Development
-
-CRM systems support modern software development by helping organizations manage customer data efficiently while integrating with other business technologies.
-
-### Key Purposes
-- Enhances customer experience through personalized interactions
-- Supports data-driven decision making
-- Automates repetitive business processes
-- Integrates with cloud services, APIs, and analytics tools
-- Improves collaboration between sales, marketing, and support teams
-
-### Role in Software Development
-Modern CRM platforms are often:
-- Cloud-based
-- Mobile accessible
-- API-driven
-- AI-enhanced
-- Integrated with DevOps and SaaS environments
-
-### Business Impact
-CRM systems help developers and organizations build scalable, customer-focused applications that improve operational efficiency and revenue generation.
-
----
-
-# 3. What is the History of CRM in Modern Software Development?
-
-## History of CRM
-
-CRM originated in the 1980s as businesses began digitizing customer records and sales management processes.
-
-### Timeline
-
-#### 1980s — Database Marketing
-- Businesses stored customer information electronically
-- Focused on contact management and sales tracking
-
-#### 1990s — Early CRM Software
-- Companies like Siebel Systems introduced dedicated CRM platforms
-- Automation of sales and customer service increased
-
-#### 2000s — Web-Based CRM
-- Internet adoption enabled online CRM platforms
-- Salesforce popularized cloud-based CRM solutions
-
-#### 2010s — Social and Mobile CRM
-- Integration with social media platforms
-- Mobile access became standard
-- Increased use of analytics and automation
-
-#### 2020s — AI and Intelligent CRM
-- AI-powered insights and chatbots
-- Predictive analytics
-- Deep integration with enterprise software ecosystems
-
----
-
-# 4. How Has CRM Evolved From When It Was First Established to Current Day?
-
-## Evolution of CRM
-
-CRM has evolved from simple digital contact databases into intelligent, cloud-based business ecosystems.
-
-### Early CRM Systems
-- Installed on local servers
-- Limited to contact storage and sales tracking
-- Required manual data entry
-- Expensive and difficult to scale
-
-### Modern CRM Systems
-- Cloud-hosted and subscription-based
-- Accessible from anywhere
-- Integrated with AI, automation, and analytics
-- Supports omnichannel communication
-- Uses machine learning for customer predictions
-
-### Major Evolutionary Changes
-- Transition from on-premises to cloud computing
-- Integration with mobile technology
-- Real-time customer analytics
-- API-based integrations with third-party tools
-- Automation of workflows and customer engagement
-
-### Current Focus
-Modern CRM systems prioritize:
-- Customer experience
-- Personalization
-- Automation
-- Scalability
-- Data security and compliance
-
----
-
-# Prompt #2: Why do organizations use CRM systems?
-
-Answer the following questions about Customer Relationship Management (CRM) systems in relation to modern software development. Limit responses to each question to 200 words or less. Format each response for readability at a glance. Put the response in markdown code format. Include the original prompt in the response:
-
-Why do organizations use CRM systems? Discuss in the following terms:
-Sales management
-Customer management
-Marketing
-Customer support
-Reporting and analytics
-
----
-
-# Why Organizations Use CRM Systems
-
-Customer Relationship Management (CRM) systems are used by organizations to centralize and optimize how they interact with customers across the entire business lifecycle.
-
-## Sales Management
-- Tracks leads, opportunities, and sales pipelines
-- Helps sales teams prioritize prospects and close deals faster
-- Automates follow-ups and reminders
-- Improves forecasting accuracy through real-time data
-
-## Customer Management
-- Stores and organizes customer profiles and interaction history
-- Provides a unified view of each customer across departments
-- Enables personalized communication and relationship building
-- Reduces data duplication and information silos
-
-## Marketing
-- Supports targeted campaigns based on customer segmentation
-- Automates email marketing and lead nurturing workflows
-- Measures campaign effectiveness and ROI
-- Integrates with digital advertising and social media platforms
-
-## Customer Support
-- Manages service tickets and customer inquiries
-- Improves response times through automation and routing
-- Provides agents with full customer history for better service
-- Supports omnichannel communication (chat, email, phone)
-
-## Reporting and Analytics
-- Generates insights from customer and sales data
-- Tracks KPIs such as conversion rates and retention
-- Helps identify trends and business opportunities
-- Supports data-driven decision-making across departments
-
----
-
-# Prompt #3: What business problems do CRM systems solve?
-
-Answer the following questions about Customer Relationship Management (CRM) systems in relation to modern software development. Limit responses to each question to 200 words or less. Format each response for readability at a glance. Put the response in markdown code format. Include the original prompt in the response:
-
-What business problems do CRM systems solve? Provide real world examples from the following sectors:
-Retail  
-Healthcare  
-Education  
-Manufacturing  
-Nonprofits  
-
----
-
-# What Business Problems Do CRM Systems Solve?
-
-CRM systems solve core business problems such as fragmented customer data, poor communication tracking, inefficient workflows, inconsistent customer experiences, and lack of actionable insights.
-
----
-
-## Retail
-
-### Problems Solved
-- Disconnected customer purchase history across channels
-- Poor personalization in marketing campaigns
-- Inefficient loyalty program tracking
-
-### Real-World Example
-A retail chain uses CRM to unify in-store and online shopping data. This allows them to:
-- Send personalized discounts based on past purchases
-- Track customer loyalty points automatically
-- Reduce cart abandonment through targeted email reminders
-
----
-
-## Healthcare
-
-### Problems Solved
-- Fragmented patient records across departments
-- Missed follow-ups and appointments
-- Poor patient communication coordination
-
-### Real-World Example
-A hospital uses CRM integrated with patient portals to:
-- Schedule automated appointment reminders
-- Track patient communication history
-- Improve coordination between specialists and primary care providers
-
----
-
-## Education
-
-### Problems Solved
-- Inefficient student recruitment processes
-- Lack of engagement tracking with prospective students
-- Poor alumni relationship management
-
-### Real-World Example
-A university uses CRM to:
-- Track student inquiries and applications
-- Automate admissions communication
-- Maintain alumni engagement for fundraising campaigns
-
----
-
-## Manufacturing
-
-### Problems Solved
-- Limited visibility into distributor and client relationships
-- Inefficient B2B sales tracking
-- Poor after-sales service management
-
-### Real-World Example
-A manufacturing company uses CRM to:
-- Manage supplier and distributor relationships
-- Track long-term sales contracts
-- Coordinate maintenance and support for industrial equipment
-
----
-
-## Nonprofits
-
-### Problems Solved
-- Difficulty managing donor relationships
-- Ineffective fundraising campaigns
-- Lack of engagement tracking with volunteers
-
-### Real-World Example
-A nonprofit uses CRM to:
-- Track donor history and donation frequency
-- Segment donors for targeted fundraising campaigns
-- Automate thank-you messages and impact updates
-
----
-
-# Prompt #4: What are the major modules found in a CRM?
-
-What are the major modules found in a CRM?  
 Examples include:
 
-Contacts  
-Accounts  
-Leads  
-Opportunities  
-Activities  
-Tasks  
-Marketing Campaigns  
-Customer Support Tickets  
-Reports  
-Dashboards  
+* Contacts
+* Accounts
+* Leads
+* Opportunities
+* Activities
+* Tasks
+* Marketing Campaigns
+* Customer Support Tickets
+* Reports
+* Dashboards
 
+```
+
+### Major CRM Modules
+
+Customer Relationship Management (CRM) systems are built around several core modules that help businesses manage interactions with prospects and customers. Below are the most common modules, kept simple and clear.
+
+- **Contacts** – Stores individual people you interact with, such as names, email addresses, and phone numbers.
+- **Accounts** – Holds information about companies or organizations, such as billing address, industry, and parent company.
+- **Leads** – Unqualified potential customers before they become official contacts or accounts.
+- **Opportunities** – Potential sales deals with stages such as prospecting, negotiation, and closed won.
+- **Activities** – Logs past interactions like calls, meetings, or emails.
+- **Tasks** – To-do items such as follow-up calls or sending proposals, with due dates and assignments.
+- **Marketing Campaigns** – Plans and tracks email blasts, social media ads, events, and their responses.
+- **Customer Support Tickets** – Records customer issues, requests, or complaints, often with statuses such as open or resolved.
+- **Reports** – Tools to analyze data such as sales pipeline, support volume, or campaign ROI using tables or charts.
+- **Dashboards** – Visual overviews of key metrics, such as monthly revenue or open tickets, in real time.
+
+### Additional Modules Often Found in CRMs
+
+These are not always required, but they are common in many CRM platforms.
+
+- **Products / Price Books** – Catalogs of items or services sold.
+- **Quotes and Orders** – Tools to generate estimates and process sales orders.
+- **Forecasting** – Predicts future sales revenue.
+- **Document Library** – Stores contracts, proposals, or support files.
+
+### Sources
 ---
 
-# Major CRM Modules
+- HubSpot. (2024). *HubSpot CRM Modules Overview*. Retrieved from [https://www.hubspot.com/products/crm](https://www.hubspot.com/products/crm)
+- Microsoft. (2024). *Dynamics 365 Sales Modules*. Retrieved from [https://dynamics.microsoft.com/en-us/sales/overview](https://dynamics.microsoft.com/en-us/sales/overview)
+- Salesforce. (2024). *Salesforce CRM Modules & Features*. Retrieved from [https://www.salesforce.com/products/what-is-crm/](https://www.salesforce.com/products/what-is-crm/)
 
-CRM systems are built from interconnected modules that manage different stages of the customer lifecycle—from lead generation to post-sale support and analytics.
-
-## Core Data Management
-
-### Contacts
-Stores individual customer or prospect information such as names, emails, phone numbers, and interaction history.
-
-### Accounts
-Represents organizations or companies associated with contacts, commonly used in B2B CRM systems.
-
-### Leads
-Captures potential customers who have shown interest but are not yet qualified sales prospects.
-
+### Reflection:
 ---
+### Which AI tool generated the response?
+```
+DeepSeek-V3  
+```
 
-## Sales Pipeline Management
+### Was the response complete?
+```
+Yes, the response was complete.  Removing some of the restraints in the prompt provided a much more helpful response.
+```
 
-### Opportunities
-Tracks qualified leads through the sales process, including deal value, stage, and probability of closing.
+### Did you verify the information?
+```
+Yes, the links this time contained the correct references. 
+```
 
-### Activities
-Logs interactions such as emails, calls, meetings, and follow-ups across all records.
+### How trustworthy was the result?
+```
+The information appears to be trustworthy overall based on the references provided.
+```
 
-### Tasks
-Manages assigned to-do items for sales, marketing, or support teams to ensure workflow execution.
+# Part 2 – AI-Assisted CRM Product Comparison
 
----
-
-## Marketing and Engagement
-
-### Marketing Campaigns
-Manages email campaigns, advertisements, and lead nurturing efforts targeting specific customer segments.
-
----
-
-## Customer Service
-
-### Customer Support Tickets
-Tracks customer issues, complaints, and service requests from creation to resolution.
-
----
-
-## Analytics and Reporting
-
-### Reports
-Provides structured data summaries on sales performance, customer behavior, and team productivity.
-
-### Dashboards
-Visualizes key performance indicators (KPIs) in real time for quick decision-making and monitoring.
-
----
-# PART 2
----
-# Prompt 1: Research at least four commercial CRM systems with comparison table.
-
-out of the following commercial CRM systems provide information on the strengths and weaknesses based on use case.  
-Salesforce  
-HubSpot CRM  
-Zoho CRM  
-Microsoft Dynamics 365 CRM  
-Oracle CRM  
-Create a comparison table.
-
-Product | Target Customer | Strengths | Weaknesses | Pricing Model
-
----
-
-# CRM Comparison Table
+## Commercial CRM Products
 
 | Product | Target Customer | Strengths | Weaknesses | Pricing Model |
-|----------|----------------|------------|-------------|---------------|
-| Salesforce | Large enterprises, complex sales organizations | Highly customizable, extensive app ecosystem, advanced analytics, highly scalable | Expensive, complex setup, requires skilled administrators, can be overkill for small teams | Tiered subscription (per user/month) |
-| HubSpot CRM | Small to mid-sized businesses, marketing-focused teams | Very easy to use, strong inbound marketing tools, free tier available, fast onboarding | Limited deep customization, costs rise quickly at higher tiers, less suitable for complex enterprise workflows | Freemium + tiered SaaS pricing |
-| Zoho CRM | Small to mid-sized businesses, cost-conscious organizations | Affordable, broad feature set, flexible customization, integrates well with Zoho ecosystem | Less polished UI, weaker third-party ecosystem, limited scalability for very large enterprises | Low-cost subscription tiers |
-| Microsoft Dynamics 365 CRM | Enterprises using Microsoft ecosystem | Deep integration with Microsoft 365, strong AI and analytics, modular enterprise design, strong security | Complex licensing, steep learning curve, often requires implementation support | Modular subscription (per app/user) |
-| Oracle CRM | Large global enterprises with complex operations | Strong enterprise-grade capabilities, robust data management, integrates with Oracle Cloud | Very expensive, complex deployment, less intuitive UI, heavy IT dependency | Enterprise contract-based pricing |
+| ------- | --------------- | --------- | ---------- | ------------- |
+| Salesforce | Large enterprises with complex sales processes and strong customization needs. | Highly customizable, large integration ecosystem, strong analytics and automation. | Expensive, complex to manage, and often requires dedicated administrators. | Tiered subscription, starting around $25/user/month and increasing significantly for higher plans. |
+| HubSpot CRM | Small to mid-sized businesses looking for an easy-to-use all-in-one CRM. | Very easy to use, quick setup, and a strong free tier for small teams. | Advanced features require paid upgrades, which can become expensive over time. | Freemium model with paid Sales, Marketing, and Service Hubs starting around $99/month per seat. |
+| Zoho CRM | Small to mid-sized businesses needing an affordable and customizable CRM. | Good value, flexible customization, and strong integration with other Zoho products. | Interface can feel cluttered, and some advanced features are limited to higher tiers. | Free plan for up to 3 users, with paid plans starting around $14/user/month. |
+| Microsoft Dynamics 365 | Mid-sized to large organizations already using Microsoft products like Outlook, Teams, and Excel. | Strong Microsoft 365 integration, modular design, and CRM plus ERP capabilities. | Setup can be costly and complex, with a steeper learning curve than simpler CRMs. | Modular subscription pricing, typically starting around $50 to $65/user/month. |
+| Oracle CRM | Large global enterprises needing advanced analytics and large-scale data management. | Strong analytics, data management, and partner relationship management features. | Very expensive and often too complex for smaller organizations. | Tiered subscription with higher starting costs, often around $65 to $75/user/month and up. |
 
----
-
-# Open Source CRM Products Comparison
+## Open Source CRM Products
 
 | Product | Features | Technology Stack | Community Support | Ease of Installation |
-|----------|----------|------------------|-------------------|----------------------|
-| SuiteCRM | Sales automation, contact management, reporting, workflow automation, marketing tools | PHP, MySQL/MariaDB | Large and active community (fork of SugarCRM CE), frequent updates | Moderate — requires LAMP/LEMP setup, some configuration needed |
-| EspoCRM | Lightweight CRM, customizable entities, dashboards, sales pipeline, API-first design | PHP, JavaScript, MySQL/MariaDB | Active but smaller community than SuiteCRM | Easy — simple web-based installer and minimal dependencies |
-| Odoo CRM | Full business suite (CRM, ERP, accounting, inventory), pipeline management, automation | Python, PostgreSQL, JavaScript | Very large global community with commercial backing | Moderate to complex — easier via Odoo cloud, harder for self-hosted |
-| Vtiger CRM (Open Source Edition) | Lead management, sales automation, customer support, email integration | PHP, MySQL | Moderate community with strong enterprise fork ecosystem | Moderate — guided installer but setup can be technical |
+| ------- | -------- | ---------------- | ----------------- | -------------------- |
+| SuiteCRM | Full-featured CRM for sales, marketing, customer support, and project management. Includes sales pipeline tools, service tickets, marketing automation, and dashboards. | PHP, MySQL or MariaDB, and Apache on a traditional LAMP stack. | Large and active open-source community with forums, extensions, and shared custom modules. | Moderate. Installation is manageable, but setting up the server environment and learning advanced features can take time. |
+| Odoo CRM | CRM module within a larger ERP platform. Includes lead and opportunity tracking, sales automation, marketing tools, and customer service features. | Python and PostgreSQL, built on Odoo’s own framework and ORM. | Strong community with a large app ecosystem and many developers contributing modules. | Challenging. Setup is more technical and usually requires more configuration than a basic CRM. |
+| EspoCRM | Lightweight CRM focused on core features such as contacts, leads, opportunities, cases, and email marketing. | PHP-based backend with a modern web interface and REST API support. | Smaller than SuiteCRM or Odoo, but still active and supported by a useful community. | Easy. Low system requirements and a simpler deployment process make it beginner-friendly. |
+| Vtiger CRM | All-in-one CRM with sales, marketing, support, inventory, and project management features. | PHP and MySQL on a LAMP or WAMP stack. | Good community support, many integrations, and partner support options. | Easy. Web-based installer and standard hosting requirements make setup straightforward. |
 
----
+## Analysis:
 
-# Original Prompt
+### Which commercial CRM appears most popular?
+```
+SalesForce appears to be the most popular commercial CRM as it holds 20% of the global CRM market.  SalesForce also serves roughly 90% of Fortune 500 companies which helps support this claim. 
+```
 
-provide separate analysis for both the commercial CRM and open-source CRM using the following:
-Analysis  
-Discuss:
+### Which open-source CRM appears most mature?
+```
+SuiteCRM stands out as the most mature open-source CRM available. It is backed by a massive, long-standing developer community and traces its roots back to 2004, when it originated as a fork of SugarCRM Community Edition.  
+```
 
-Which commercial CRM appears most popular?  
-Which open-source CRM appears most mature?  
-Which CRM would you recommend for a small business?  
-Which CRM would you recommend for a large enterprise?  
-Justify your answers.
+### Which CRM would you recommend for a small business?
+```
+For commercial products, HubSpot CRM seems to be the most approachable.  It's noted as quick to setup and very easy to use.  Along with this it also offers a free model with basic features for small teams.  
 
----
+For open-source products, EspoCRM is the best option due to the ease of installation, low system requirements, and simpler deployment process.
+```
+### Which CRM would you recommend for a large enterprise?
+```
+SalesForce would be the best fit for large enterprise.  It is already widely in use by many organizations which lends credence that the software is reliable and effective.  The software platform is also highly customizable to suit an organization's needs. 
+```
 
-# 1. Commercial CRM Analysis
+### References:
+- https://www.cirrusinsight.com/blog/salesforce-statistics
+- https://research.etr.ai/blog-observatory/salesforce-microsoft-servicenow-lead-crm-hubspot-holds-ground
+- https://docs.suitecrm.com/developer/introduction/
+- https://www.selecthub.com/customer-relationship-management/best-b2b-crm/?noamp=mobile#respond
 
-## Most Popular Commercial CRM
+# Part 3 – Open Source CRM Exploration
 
-**Salesforce** is generally the most widely adopted commercial CRM globally.
+## Vtiger CRM
 
-### Justification:
-- Largest market share in the CRM industry
-- Extensive ecosystem (AppExchange, integrations, partners)
-- Strong adoption across Fortune 500 companies
-- Industry standard for enterprise CRM workflows
-- Highly scalable across industries
+### Installation Experience
 
----
+* Was installation easy?
 
-## Best Commercial CRM for Small Business
+```
+Getting started with vtiger was extremely simple.  There was no installation needed after signing up.  The platform is a web app.
+```
 
-**HubSpot CRM**
+* What challenges occurred?
 
-### Justification:
-- Free tier lowers adoption barrier
-- Easy setup with minimal technical expertise
-- Strong marketing + sales automation in one platform
-- Intuitive UI designed for non-technical users
-- Fast onboarding compared to enterprise CRMs
+```
+There were some minor issues with navigation but after locating the proper resources on the vtiger website I was able to learn how to set up and execute workflows.
 
----
+https://www.vtiger.com/crm-workflow/
+```
 
-## Best Commercial CRM for Large Enterprise
+* How did AI help?
 
-**Salesforce** (with Microsoft Dynamics 365 as a close alternative)
+```
+I prompted AI to provide me with a guide to learn the basics of create a workflow.  The instructions were not 100% correct but it pushed me in the right direction and gave me a general idea of what I was looking for.  The products help page got me the rest of the way there.
+```
 
-### Justification:
-- Highly customizable architecture for complex workflows
-- Strong multi-cloud enterprise capabilities
-- Advanced analytics and AI (Einstein AI)
-- Extensive third-party integration ecosystem
-- Proven scalability for global organizations
+### Product Experience
 
----
+* What features impressed you?
 
-# 2. Open-Source CRM Analysis
+```
+Navigating the website was very intuitive.  The selection of colors, icons, and layouts seem to be well thought out as to draw your attention to the most relevant options.  I like the fact that they offer quick startup options allowing you to start exploring the product with little to no setup.
+```
 
-## Most Mature Open-Source CRM
+* What features were missing?
 
-**SuiteCRM**
+```
+Assigning and completing tasks was not as visually appealing or accessible as other CRM software I reviewed.  There is a lot less drag and drop and more navigating through menus.  I actually prefer this style but I can see how this could be a barrier for some users.
+```
 
-### Justification:
-- Longest-standing widely adopted open-source CRM fork (from SugarCRM CE)
-- Rich feature set comparable to commercial CRMs
-- Strong documentation and global community
-- Regular updates and enterprise adoption options
-- Proven stability in production environments
+* Would you use it in a real organization?
 
----
+```
+I would need to spend more time using the product and setup multiple users then test it over several days.  However, at first glance it seems like it is something that I'd be comfortable deploying on a small scale.
+```
 
-## Best Open-Source CRM for Small Business
+# Part 4 – AI-Assisted CRM Architecture Exploration
 
-**EspoCRM**
+## Scenario:
 
-### Justification:
-- Lightweight and easy to deploy
-- Simple user interface and fast onboarding
-- Lower infrastructure requirements than SuiteCRM or Odoo
-- Flexible customization without heavy complexity
-- Ideal for small teams needing basic CRM functionality
+### Front-End
 
----
+* HTML
+* CSS
+* JavaScript
+* jQuery
+* Bootstrap
 
-## Best Open-Source CRM for Large Enterprise
+### Server-Side
 
-**Odoo CRM**
+* PHP
 
-### Justification:
-- Part of a full ERP ecosystem (CRM + accounting + inventory + HR)
-- Highly modular and scalable
-- Strong automation and workflow capabilities
-- Large global community plus commercial support options
-- Suitable for complex, multi-department enterprise environments
+### Database
 
+* MySQL
 
+Use AI tools to investigate how such a CRM might be designed.
 
+## Questions
 
+### Functional Modules
 
+What modules should be included?
 
+```
+The CRM will be architected around distinct, self-contained modules, each responsible for a specific business capability. A well-defined modular structure ensures a scalable and maintainable system.
+```
 
+| Module | Purpose |
+| --- | --- |
+| Authentication & Authorization | Manages user identity, login/logout processes, session management, and enforces granular access control via roles and permissions. |
+| Dashboard | Serves as the central home screen, providing a high-level overview of key metrics, recent activities, and system status through customizable widgets. |
+| Contact Management | Acts as the core repository for all individual contacts, storing essential details and their relationships with specific companies and other entities. |
+| Account Management | Manages profiles for organizations and companies, capturing their information and relationships with associated contacts, leads, and opportunities. |
+| Lead Management | Tracks potential customers through the qualification process. This includes lead capture, assignment, and tracking them until they are either converted or discarded. |
+| Opportunity Management | Manages qualified potential sales deals through customizable pipeline stages, tracking attributes like amount, probability, and expected close date. |
+| Activity Management | Provides a central log for all communications and scheduled tasks, including calls, meetings, emails, and notes, linked to relevant records. |
+| Reporting & Analytics | Enables data-driven decision-making by providing tools to generate custom reports and visual dashboards based on any CRM data. |
+| System Administration | Provides tools for administrators to manage users and roles, configure custom fields, and oversee system settings. |
 
+### Database Design
 
+What tables would be required?
 
+```
+The following schema captures the core entities and their relationships, ensuring data integrity and efficient querying.
+```
 
+| Table Name | Primary Key | Foreign Key(s) | Description |
+| --- | --- | --- | --- |
+| Users | user_id (INT) | role_id → Roles | Stores user login credentials, profile details, and assigned roles for access control. |
+| Roles | role_id (INT) | - | Defines the roles in the system (e.g., Admin, Sales Manager, Sales Rep) for RBAC. |
+| Permissions | perm_id (INT) | - | Lists specific permissions (e.g., create_contact, view_report). |
+| Role_Permissions | rp_id (INT) | role_id → Roles, perm_id → Permissions | Maps roles to permissions, defining what each role can do (many-to-many). |
+| Accounts | account_id (INT) | - | Stores company and organizational information. A core business entity. |
+| Contacts | contact_id (INT) | account_id → Accounts, assigned_to → Users | Stores individual contact details; typically associated with one account. |
+| Leads | lead_id (INT) | assigned_to → Users | Stores potential customer information before they are qualified. |
+| Opportunities | opportunity_id (INT) | contact_id → Contacts, account_id → Accounts, assigned_to → Users | Tracks potential sales deals, linked to contact/account and a sales owner. |
+| Activities | activity_id (INT) | contact_id → Contacts, lead_id → Leads, opportunity_id → Opportunities, assigned_to → Users, created_by → Users | Logs interactions (calls, emails, meetings, tasks) linked to relevant records. |
+| Activity_Types | type_id (INT) | - | Lookup table defining activity types (e.g., Call, Email, Meeting). |
+| Lead_Sources | source_id (INT) | - | Lookup table for lead sources (e.g., Website, Referral). |
 
+### Useful Libraries
 
+Research libraries that could accelerate development.
 
+```
+Strategic use of open-source libraries can significantly accelerate development, reduce boilerplate code, and improve quality.
+```
 
+| Library | Category | Purpose |
+| --- | --- | --- |
+| Composer | Dependency Manager | Manages PHP packages, simplifies installation, updates and autoloading. Install example: `composer require vendor/package-name`. |
+| PHPMailer | Email Handling | Robust, secure email sending from PHP (HTML, attachments, SMTP). |
+| DataTables | Frontend (jQuery) | Enhances HTML tables with pagination, search, sorting, and responsive features. |
+| Chart.js | Frontend (JavaScript) | Builds simple, responsive charts (bar, line, pie) for dashboards. |
+| Nette Security | Auth & Access Control | Security-focused toolkit for authentication, authorization, and session management. |
+| Perfect RBAC | Authorization | Lightweight PHP library for hierarchical Role-Based Access Control (RBAC) implementation. |
 
+### Security Considerations
+
+Research:
+
+* Authentication
+* Authorization
+* Password Security
+* SQL Injection Prevention
+* Cross-Site Scripting (XSS)
+* Data Privacy
+
+```
+Building security into every layer of the application is critical to protect customer data and ensure trust.
+```
+
+| Consideration | PHP Implementation Strategy |
+| --- | --- |
+| Authentication | Verify credentials with a dedicated authenticator against the database using prepared statements; manage logged-in state with secure sessions (regenerate session ID on login, set `Secure`, `HttpOnly`, `SameSite` flags). |
+| Authorization (RBAC) | Enforce permission checks server-side after login (role→permission lookup). Use a library like Perfect RBAC to map roles to permissions and check access before actions. |
+| Password Security | Never store plaintext passwords. Use `password_hash()` for storage and `password_verify()` for authentication; prefer Argon2 or bcrypt and consider a server-side pepper for extra protection. |
+| SQL Injection Prevention | Use prepared statements / parameterized queries (PDO or MySQLi) for all DB access (e.g., `PDO::prepare()` + bound parameters) to separate SQL logic from data. |
+| Cross-Site Scripting (XSS) | Escape output before rendering HTML, e.g. `htmlspecialchars($string, ENT_QUOTES, 'UTF-8')`; apply contextual encoding and use a CSP and client-side sanitizers (e.g., DOMPurify) where appropriate. |
+| Data Privacy | Encrypt sensitive fields at rest when required, enforce TLS/HTTPS for all transport, limit DB access with least-privilege accounts, and log/audit access to sensitive data. |
+
+### MVP Proposal
+
+Describe the smallest useful CRM that could be built.  What features would be included in Version 1?
+
+```
+The MVP is the smallest, most useful version of the CRM, focusing on core value for a sales team. The goal is to validate the concept, gather user feedback, and establish a foundation.
+```
+
+| Core Feature | Description |
+| --- | --- |
+| User Management & Authentication | Secure login/logout, password reset, session management, hashed passwords (`password_hash`/`password_verify`), and basic role assignment. |
+| Account & Contact Management | Full CRUD for companies and individual contacts, search, filtering, pagination, and account↔contact associations. |
+| Lead Management | Capture and track leads, owner assignment, status changes, and convert qualified leads into a Contact + Account. |
+| Activity & Task Management | Log calls, emails, meetings; create/assign tasks with due dates and statuses; link activities/tasks to contacts, leads, or opportunities. |
+| Basic Dashboard | Home screen with upcoming tasks, small visual charts (Chart.js), and key counts (e.g., Open Leads, Active Opportunities). |
+| Estimated Timeline (MVP) | 8–12 weeks full-time (single small team). Example breakdown: Auth 1–2 weeks; Accounts/Contacts 2–3 weeks; Leads 1–2 weeks; Activities/Tasks 1–2 weeks; Dashboard + QA/deploy 2 weeks. |
 
 
 

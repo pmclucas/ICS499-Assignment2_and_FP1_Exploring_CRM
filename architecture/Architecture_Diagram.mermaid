@@ -1,0 +1,39 @@
+flowchart TD
+    User([End User<br>Browser])
+    subgraph Tier_1 [Presentation Layer]
+        Browser[Browser]
+        HTML_CSS[HTML / CSS]
+        JS_FW[JavaScript / jQuery]
+        CSS_FW[Bootstrap Framework]
+    end
+
+    subgraph Tier_2 [Application Layer]
+        WebServer[Web Server<br>Apache / Nginx]
+        PHP[PHP Interpreter]
+        subgraph PHP_Modules [Core Modules]
+            Auth[Auth]
+            ContactsMgmt[Contacts]
+            LeadsMgmt[Leads]
+            TasksMgmt[Tasks]
+            Reports[Reports]
+        end
+        PHP_Composer[Composer<br>Package Manager]
+        Libs[Libraries<br>PHPMailer, etc.]
+    end
+
+    subgraph Tier_3 [Data Layer]
+        DBServer[Database Server<br>MySQL]
+        DBSchema[Database Schema<br>Users, Contacts,...]
+    end
+
+    User --> Browser
+    Browser -->|HTTPS / Web Requests| WebServer
+    WebServer -->|PHP Processing| PHP
+    PHP --- PHP_Modules
+    PHP --- PHP_Composer
+    PHP_Composer --- Libs
+    PHP -->|SQL Queries| DBServer
+    DBServer --> DBSchema
+    DBSchema -->|Result Sets| PHP
+    PHP -->|Rendered HTML/JSON| WebServer
+    WebServer -->|HTTP Response| Browser

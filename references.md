@@ -1,1 +1,26 @@
+# References
 
+- Wikipedia: Customer relationship management: https://en.wikipedia.org/wiki/Customer_relationship_management
+- Salesforce company overview and history: https://www.salesforce.com/company/
+- Salesforce CRM modules and features: https://www.salesforce.com/products/what-is-crm/
+- Salesforce statistics (Cirrus Insight): https://www.cirrusinsight.com/blog/salesforce-statistics
+- Microsoft Dynamics 365 documentation: https://learn.microsoft.com/en-us/dynamics365/
+- Microsoft Dynamics 365 sales overview: https://dynamics.microsoft.com/en-us/sales/overview
+- HubSpot CRM: https://www.hubspot.com/products/crm
+- Gartner CRM insights: https://www.gartner.com/en/information-technology/insights/crm
+- Forrester report landing page: https://www.forrester.com/report/
+- Everest Group, "What Business Problems Does a CX-AI-Native CRM Solve?": https://www.everestgrp.com/2025/cx-ai-native-crm
+- EngineerIT, "CRM: A Resilient Solution to Business Problems": https://www.engineerit.co.za/crm-resilient-solution
+- Rapaport, "Retail's Missing Tech Stack - CRM": https://www.rapaport.com/retail-missing-tech
+- ii.co.th, "How Salesforce CRM Helps Retail Businesses": https://www.ii.co.th/salesforce-retail-businesses
+- CareLaunch, "EHR vs. HIPAA-Compliant CRM": https://www.carelaunch.com/ehr-vs-hipaa-crm
+- Solix, "CRM for Healthcare: Solving Data Challenges": https://www.solix.com/crm-healthcare-data-challenges
+- LeadSquared, "Why Colleges Need a CRM": https://www.leadsquared.com/crm-for-colleges
+- EAB, "The Higher Ed CRM Buyer's Guide": https://www.eab.com/higher-ed-crm-guide
+- Adept Sol, "Key Features of CRM for Manufacturing": https://www.adept-sol.com/crm-manufacturing-key-features
+- Zenatta, "Hercules Sealing Products Case Study": https://www.zenatta.com/hercules-sealing-case-study
+- TechForce Services, "Salesforce Nonprofit Guide 2026": https://www.techforceservices.com/salesforce-nonprofit-guide-2026
+- PreviseIT, "Salesforce Nonprofit Cloud Overview": https://www.previseit.com/salesforce-nonprofit-cloud
+- ETR Observatory, "Salesforce, Microsoft, and ServiceNow lead CRM": https://research.etr.ai/blog-observatory/salesforce-microsoft-servicenow-lead-crm-hubspot-holds-ground
+- SuiteCRM developer introduction: https://docs.suitecrm.com/developer/introduction/
+- SelectHub B2B CRM comparison: https://www.selecthub.com/customer-relationship-management/best-b2b-crm/?noamp=mobile#respond
